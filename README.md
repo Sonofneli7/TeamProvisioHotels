@@ -24,19 +24,23 @@ CI/CD: GitHub Actions for continuous integration and deployment pipelines
 Containerization: Docker (optional for development and deployment consistency)
 
 ## Installation & Setup
-1.Clone the repository:
+1. Clone the repository:
 git clone https://github.com/yourusername/provisio-hotel-management.git
 
-2.Install dependencies: Ensure that PHP is installed on your machine, along with Composer (for PHP package management). Install any necessary packages by running:
+2. Install dependencies: Ensure that PHP is installed on your machine, along with Composer (for PHP package management). Install any necessary packages by running:
 
 copy code: composer install
 
 3. Database Setup: Set up your MySQL/PostgreSQL database and import the provided schema file (database/schema.sql). Update your database credentials in the config/database.php file:
 
 copy code:
+
 'db_host' => 'your-database-host',
+
 'db_name' => 'provisio',
+
 'db_user' => 'your-username',
+
 'db_pass' => 'your-password',
 
 4. Run the project: Start the local development server:
